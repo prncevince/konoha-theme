@@ -12,10 +12,7 @@
 /* TITLE SLIDE */
 
 .title-slide { /* dims of (1920 x 1279) AND (2206 x 2557) */
-    /* background-image: url(./static/img/rmd-title-1.jpg), url(./static/img/rmarkdown.png);
-    background-size: cover, 20%;
-    background-position: top, 1em 90%; */
-    background-image: url(./static/img/logo.png), url(./static/img/title.jpg);
+    background-image: url('../../assets/img/theme/logo.png'), url(../../assets/img/theme/title.jpg);
     background-size: 20%, cover;
     background-position: 1em 90%, top;
     padding: 1em;
@@ -53,8 +50,6 @@ img.topic {
 }
 
 /* series footer */
-
-
 
 p.my-footer {
     background-color: #000;
