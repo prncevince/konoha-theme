@@ -72,6 +72,69 @@ p.my-footer span {
     z-index: 1;
 }
 
+/* no margin */
+
+.nomargin {
+  margin: 0!important;
+}
+
+/* vertical content class alignment */
+
+.vbottom-0  { position: relative; bottom: -100%; transform: translateY(-100%);}
+.vbottom-5  { position: relative; bottom: -95%; transform: translateY(-100%);}
+.vbottom-10 { position: relative; bottom: -90%; transform: translateY(-100%);}
+.vbottom-15 { position: relative; bottom: -85%; transform: translateY(-100%);}
+.vbottom-20 { position: relative; bottom: -80%; transform: translateY(-100%);}
+.vbottom-25 { position: relative; bottom: -75%; transform: translateY(-100%);}
+.vbottom-30 { position: relative; bottom: -70%; transform: translateY(-100%);}
+.vbottom-35 { position: relative; bottom: -65%; transform: translateY(-100%);}
+.vbottom-40 { position: relative; bottom: -60%; transform: translateY(-100%);}
+.vbottom-45 { position: relative; bottom: -55%; transform: translateY(-100%);}
+
+.vtop-0  { position: relative; top: 0%;}
+.vtop-5  { position: relative; top: 5%;}
+.vtop-10 { position: relative; top: 10%;}
+.vtop-15 { position: relative; top: 15%;}
+.vtop-20 { position: relative; top: 20%;}
+.vtop-25 { position: relative; top: 25%;}
+.vtop-30 { position: relative; top: 30%;}
+.vtop-35 { position: relative; top: 35%;}
+.vtop-40 { position: relative; top: 40%;}
+.vtop-45 { position: relative; top: 45%;}
+
+.remark-slide-content .vmiddle h2, .remark-slide-content .vmiddle h3, .remark-slide-content .vmiddle h4, .remark-slide-content .vmiddle h5, .remark-slide-content .vmiddle h6 {margin-top: 0;}
+.remark-slide-content .vbottom-0 h1, .remark-slide-content .vbottom-0 h2, .remark-slide-content .vbottom-0 h3, .remark-slide-content .vbottom-0 h4, .remark-slide-content .vbottom-0 h5, .remark-slide-content .vbottom-0 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-5 h1, .remark-slide-content .vbottom-5 h2, .remark-slide-content .vbottom-5 h3, .remark-slide-content .vbottom-5 h4, .remark-slide-content .vbottom-5 h5, .remark-slide-content .vbottom-5 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-10 h1, .remark-slide-content .vbottom-10 h2, .remark-slide-content .vbottom-10 h3, .remark-slide-content .vbottom-10 h4, .remark-slide-content .vbottom-10 h5, .remark-slide-content .vbottom-10 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-15 h1, .remark-slide-content .vbottom-15 h2, .remark-slide-content .vbottom-15 h3, .remark-slide-content .vbottom-15 h4, .remark-slide-content .vbottom-15 h5, .remark-slide-content .vbottom-15 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-20 h1, .remark-slide-content .vbottom-20 h2, .remark-slide-content .vbottom-20 h3, .remark-slide-content .vbottom-20 h4, .remark-slide-content .vbottom-20 h5, .remark-slide-content .vbottom-20 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-25 h1, .remark-slide-content .vbottom-25 h2, .remark-slide-content .vbottom-25 h3, .remark-slide-content .vbottom-25 h4, .remark-slide-content .vbottom-25 h5, .remark-slide-content .vbottom-25 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-30 h1, .remark-slide-content .vbottom-30 h2, .remark-slide-content .vbottom-30 h3, .remark-slide-content .vbottom-30 h4, .remark-slide-content .vbottom-30 h5, .remark-slide-content .vbottom-30 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-35 h1, .remark-slide-content .vbottom-35 h2, .remark-slide-content .vbottom-35 h3, .remark-slide-content .vbottom-35 h4, .remark-slide-content .vbottom-35 h5, .remark-slide-content .vbottom-35 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-40 h1, .remark-slide-content .vbottom-40 h2, .remark-slide-content .vbottom-40 h3, .remark-slide-content .vbottom-40 h4, .remark-slide-content .vbottom-40 h5, .remark-slide-content .vbottom-40 h6 {margin-top: 0;}
+.remark-slide-content .vbottom-45 h1, .remark-slide-content .vbottom-45 h2, .remark-slide-content .vbottom-45 h3, .remark-slide-content .vbottom-45 h4, .remark-slide-content .vbottom-45 h5, .remark-slide-content .vbottom-45 h6 {margin-top: 0;}
+.remark-slide-content .vtop-0 h1, .remark-slide-content .vtop-0 h2, .remark-slide-content .vtop-0 h3, .remark-slide-content .vtop-0 h4, .remark-slide-content .vtop-0 h5, .remark-slide-content .vtop-0 h6 {margin-top: 0;}
+.remark-slide-content .vtop-5 h1, .remark-slide-content .vtop-5 h2, .remark-slide-content .vtop-5 h3, .remark-slide-content .vtop-5 h4, .remark-slide-content .vtop-5 h5, .remark-slide-content .vtop-5 h6 {margin-top: 0;}
+.remark-slide-content .vtop-10 h1, .remark-slide-content .vtop-10 h2, .remark-slide-content .vtop-10 h3, .remark-slide-content .vtop-10 h4, .remark-slide-content .vtop-10 h5, .remark-slide-content .vtop-10 h6 {margin-top: 0;}
+.remark-slide-content .vtop-15 h1, .remark-slide-content .vtop-15 h2, .remark-slide-content .vtop-15 h3, .remark-slide-content .vtop-15 h4, .remark-slide-content .vtop-15 h5, .remark-slide-content .vtop-15 h6 {margin-top: 0;}
+.remark-slide-content .vtop-20 h1, .remark-slide-content .vtop-20 h2, .remark-slide-content .vtop-20 h3, .remark-slide-content .vtop-20 h4, .remark-slide-content .vtop-20 h5, .remark-slide-content .vtop-20 h6 {margin-top: 0;}
+.remark-slide-content .vtop-25 h1, .remark-slide-content .vtop-25 h2, .remark-slide-content .vtop-25 h3, .remark-slide-content .vtop-25 h4, .remark-slide-content .vtop-25 h5, .remark-slide-content .vtop-25 h6 {margin-top: 0;}
+.remark-slide-content .vtop-30 h1, .remark-slide-content .vtop-30 h2, .remark-slide-content .vtop-30 h3, .remark-slide-content .vtop-30 h4, .remark-slide-content .vtop-30 h5, .remark-slide-content .vtop-30 h6 {margin-top: 0;}
+.remark-slide-content .vtop-35 h1, .remark-slide-content .vtop-35 h2, .remark-slide-content .vtop-35 h3, .remark-slide-content .vtop-35 h4, .remark-slide-content .vtop-35 h5, .remark-slide-content .vtop-35 h6 {margin-top: 0;}
+.remark-slide-content .vtop-40 h1, .remark-slide-content .vtop-40 h2, .remark-slide-content .vtop-40 h3, .remark-slide-content .vtop-40 h4, .remark-slide-content .vtop-40 h5, .remark-slide-content .vtop-40 h6 {margin-top: 0;}
+.remark-slide-content .vtop-45 h1, .remark-slide-content .vtop-45 h2, .remark-slide-content .vtop-45 h3, .remark-slide-content .vtop-45 h4, .remark-slide-content .vtop-45 h5, .remark-slide-content .vtop-45 h6 {margin-top: 0;}
+
+.remark-slide-content .top-0 ,
+vbottom-0 vbottom-5 vbottom-10 vbottom-15 vbottom-20 vbottom-25 vbottom-30 vbottom-35 vbottom-40 vbottom-45 vtop-0 vtop-5 vtop-10 vtop-15 vtop-20 vtop-25 vtop-30 vtop-35 vtop-40 vtop-45
+
+.center-flex {
+
+}
+
+.bottom-flex {
+
+}
+
 /* .title-slide .footnote {
     right: 0;
 } */
