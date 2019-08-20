@@ -124,16 +124,11 @@ p.my-footer span {
 .remark-slide-content .vtop-40 h1, .remark-slide-content .vtop-40 h2, .remark-slide-content .vtop-40 h3, .remark-slide-content .vtop-40 h4, .remark-slide-content .vtop-40 h5, .remark-slide-content .vtop-40 h6 {margin-top: 0;}
 .remark-slide-content .vtop-45 h1, .remark-slide-content .vtop-45 h2, .remark-slide-content .vtop-45 h3, .remark-slide-content .vtop-45 h4, .remark-slide-content .vtop-45 h5, .remark-slide-content .vtop-45 h6 {margin-top: 0;}
 
-.remark-slide-content .top-0 ,
-vbottom-0 vbottom-5 vbottom-10 vbottom-15 vbottom-20 vbottom-25 vbottom-30 vbottom-35 vbottom-40 vbottom-45 vtop-0 vtop-5 vtop-10 vtop-15 vtop-20 vtop-25 vtop-30 vtop-35 vtop-40 vtop-45
-
-.center-flex {
-
+/* images */
+div p {
+  display: contents;
 }
 
-.bottom-flex {
-
-}
 
 /* .title-slide .footnote {
     right: 0;
