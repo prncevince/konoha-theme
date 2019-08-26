@@ -52,6 +52,7 @@ img.topic {
 /* series footer */
 
 p.my-footer {
+    display: block;
     background-color: #000;
     position: absolute;
     bottom: 0px;
@@ -126,7 +127,7 @@ p.my-footer span {
 
 /* images */
 div p {
-  display: contents;
+  display: inline;
 }
 
 
