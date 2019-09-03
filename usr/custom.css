@@ -125,9 +125,102 @@ p.my-footer span {
 .remark-slide-content .vtop-40 h1, .remark-slide-content .vtop-40 h2, .remark-slide-content .vtop-40 h3, .remark-slide-content .vtop-40 h4, .remark-slide-content .vtop-40 h5, .remark-slide-content .vtop-40 h6 {margin-top: 0;}
 .remark-slide-content .vtop-45 h1, .remark-slide-content .vtop-45 h2, .remark-slide-content .vtop-45 h3, .remark-slide-content .vtop-45 h4, .remark-slide-content .vtop-45 h5, .remark-slide-content .vtop-45 h6 {margin-top: 0;}
 
+
+/* horizontal content class alignment */
+.hleft-0 { position: relative; left: 0%;}
+.hleft-5 { position: relative; left: 5%;}
+.hleft-10 { position: relative; left: 10%;}
+.hleft-15 { position: relative; left: 15%;}
+.hleft-20 { position: relative; left: 20%;}
+.hleft-25 { position: relative; left: 25%;}
+.hleft-30 { position: relative; left: 30%;}
+.hleft-35 { position: relative; left: 35%;}
+.hleft-40 { position: relative; left: 40%;}
+.hleft-45 { position: relative; left: 45%;}
+
+.hright-0 { position: relative; right: 0%;}
+.hright-5 { position: relative; right: 5%;}
+.hright-10 { position: relative; right: 10%;}
+.hright-15 { position: relative; right: 15%;}
+.hright-20 { position: relative; right: 20%;}
+.hright-25 { position: relative; right: 25%;}
+.hright-30 { position: relative; right: 30%;}
+.hright-35 { position: relative; right: 35%;}
+.hright-40 { position: relative; right: 40%;}
+.hright-45 { position: relative; right: 45%;}
+
+
 /* images */
+
+/* by default, all images are wrapped in <p> by remark.js
+
+/* When positioning images in a column/row block containing multiple items,
+  row/height attributes may be the only method of sizing the <img> */
+
+/* This property is for images that are the ONLY element in their column/row block
+  This is used as such (creates a <span> container for <img>):
+.img-cover.content[![](assets/img/topic.png)]
+ */
 div p {
   display: inline;
+}
+
+/* iframes */
+
+.imax-video {
+  overflow: hidden;
+  /* // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.imax-mac {
+  overflow: hidden;
+  /* // Calculated from the aspect ration of a MacBook Pro Screen (in case of 2560:1600 it is 16/25.6= 0.625) */
+  padding-top: 62.5%;
+  position: relative;
+}
+
+.imax-container {
+  overflow: hidden;
+  padding-top: 75.04%;
+  position: relative;
+}
+
+.imax-container iframe, .imax-video iframe, .imax-mac iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+
+
+/* links */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a[href*="http"] {
+  background: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
+  background-size: 0.45em 0.45em;
+  padding-right: 0.5em;
+  /* -webkit-mask: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
+  mask: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
+  mask-size: 0.45em 0.45em;
+  background-color: #000; */
+}
+
+a:hover {
+  color: #acacac;
+  /* background-color: #acacac; */
+}
+
+a:active {
+  color: #aaff00;
 }
 
 
