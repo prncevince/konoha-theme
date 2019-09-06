@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro&display=swap');
+
+.advent-pro {
+/* advent-pro-regular - latin */
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.x100 {font-size: 100%;}
+.x125 {font-size: 125%;}
+.x150 {font-size: 150%;}
+.x175 {font-size: 175%;}
+.x200 {font-size: 200%;}
+.x225 {font-size: 225%;}
+.x250 {font-size: 250%;}
+.x275 {font-size: 275%;}
+.x300 {font-size: 300%;}
