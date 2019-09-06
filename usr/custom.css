@@ -155,13 +155,14 @@ p.my-footer span {
 /* by default, images are wrapped in <p> by remark.js when on newline after `[`
 
 /* When positioning images in a column/row block containing multiple items,
-  row/height attributes may be the only method of sizing the <img> */
+  row/height attributes might be the only method of sizing the <img> */
 
-/* This property is for images that are the ONLY element in their column/row block
-  This is used as such (creates a <span> container for <img>):
-.img-cover.content[![](assets/img/topic.png)]
-^^
-Confusing b/c <p> is only created when image is on newline after `[`
+/* This property is for images that are the ONLY element in their column/row block OR container
+In practice the it is for the <p><span><img></img></span></p> case
+This is used as such (creates a <span> container for <img>):
+    .img-cover.content[![](assets/img/topic.png)]
+Confusing b/c <p> is created when image is on newline after `[`
+However, there is behavior where <p><span><img></img></span></p> occurs, and this is for THAT occurence
  */
 div p {
   display: inline;
