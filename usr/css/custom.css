@@ -12,7 +12,7 @@
 /* TITLE SLIDE */
 
 .title-slide { /* dims of (1920 x 1279) AND (2206 x 2557) */
-    background-image: url('../../assets/img/theme/logo.png'), url(../../assets/img/theme/title.jpg);
+    background-image: url('../../../assets/img/theme/logo.png'), url(../../../assets/img/theme/title.jpg);
     background-size: 20%, cover;
     background-position: 1em 90%, top;
     padding: 1em;
@@ -261,7 +261,7 @@ a {
 }
 
 a[href*="http"] {
-  background: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
+  background: url('../../../assets/img/theme/external-link.svg') no-repeat 100% 0;
   background-size: 0.45em 0.45em;
   padding-right: 0.5em;
   /* -webkit-mask: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
