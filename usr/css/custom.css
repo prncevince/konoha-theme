@@ -12,7 +12,7 @@
 /* TITLE SLIDE */
 
 .title-slide { /* dims of (1920 x 1279) AND (2206 x 2557) */
-    background-image: url('../../assets/img/theme/logo.png'), url(../../assets/img/theme/title.jpg);
+    background-image: url('../../../assets/img/theme/logo.png'), url(../../../assets/img/theme/title.jpg);
     background-size: 20%, cover;
     background-position: 1em 90%, top;
     padding: 1em;
@@ -152,25 +152,74 @@ p.my-footer span {
 
 /* images */
 
-/* by default, all images are wrapped in <p> by remark.js
+/* by default, images are wrapped in <p> by remark.js when on newline after `[`
 
 /* When positioning images in a column/row block containing multiple items,
-  row/height attributes may be the only method of sizing the <img> */
+  row/height attributes might be the only method of sizing the <img> */
 
-/* This property is for images that are the ONLY element in their column/row block
-  This is used as such (creates a <span> container for <img>):
-.img-cover.content[![](assets/img/topic.png)]
+/* This property is for images that are the ONLY element in their column/row block OR container
+In practice the it is for the <p><span><img></img></span></p> case
+This is used as such (creates a <span> container for <img>):
+    .img-cover.content[![](assets/img/topic.png)]
+Confusing b/c <p> is created when image is on newline after `[`
+However, there is behavior where <p><span><img></img></span></p> occurs, and this is for THAT occurence
  */
 div p {
   display: inline;
 }
 
-.img-bg img {
-  z-index: 0;
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent; /* does this do anything? */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front .vmiddle h1, .flip-box-front .vmiddle h2, .flip-box-front .vmiddle h3, .flip-box-front .vmiddle h4,
+.flip-box-back .vmiddle h1, .flip-box-back .vmiddle h2, .flip-box-back .vmiddle h3, .flip-box-back .vmiddle h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* Cover Text */
 
 .text-cover {
   position: absolute;
+}
+
+.text-cover-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* iframes */
@@ -205,7 +254,6 @@ div p {
 }
 
 
-
 /* links */
 a {
   color: black;
@@ -213,7 +261,7 @@ a {
 }
 
 a[href*="http"] {
-  background: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
+  background: url('../../../assets/img/theme/external-link.svg') no-repeat 100% 0;
   background-size: 0.45em 0.45em;
   padding-right: 0.5em;
   /* -webkit-mask: url('../../assets/img/theme/external-link.svg') no-repeat 100% 0;
@@ -231,6 +279,9 @@ a:active {
   color: #aaff00;
 }
 
+.flip-box a {
+  padding: 0;
+}
 
 /* .title-slide .footnote {
     right: 0;
