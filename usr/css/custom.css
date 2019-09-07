@@ -279,6 +279,9 @@ a:active {
   color: #aaff00;
 }
 
+.flip-box a {
+  padding: 0;
+}
 
 /* .title-slide .footnote {
     right: 0;
