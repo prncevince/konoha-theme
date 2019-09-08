@@ -213,27 +213,28 @@ div p {
 
 /* iframes */
 
-.imax-video {
+.imax-slide, .imax-mac, .imax-video {
   overflow: hidden;
+  position: relative;
+}
+
+.imax-video {
   /* // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
   padding-top: 56.25%;
-  position: relative;
 }
 
 .imax-mac {
-  overflow: hidden;
   /* // Calculated from the aspect ration of a MacBook Pro Screen (in case of 2560:1600 it is 16/25.6= 0.625) */
   padding-top: 62.5%;
-  position: relative;
 }
 
-.imax-container {
-  overflow: hidden;
-  padding-top: 75.04%;
-  position: relative;
+.imax-slide {
+  /* Chosen 16:10 aspect ratio 10/16 = 0.625 */
+  padding-top: 62.5%;
+  display: contents;
 }
 
-.imax-container iframe, .imax-video iframe, .imax-mac iframe {
+.imax-video iframe, .imax-mac iframe, .imax-slide iframe {
    border: 0;
    height: 100%;
    left: 0;
