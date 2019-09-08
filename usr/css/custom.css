@@ -283,6 +283,15 @@ a:active {
   padding: 0;
 }
 
+/* hover effect */
+.flip-box a:hover .flip-box-front {
+  box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.inverse .flip-box a:hover .flip-box-front {
+  box-shadow: inset 0 0 10px 10px rgba(255, 255, 255, 0.5);
+}
+
 /* .title-slide .footnote {
     right: 0;
 } */
