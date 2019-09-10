@@ -93,10 +93,10 @@
 }
 
 .remark-visible .remark-slide-scaler {overflow-y: auto;}
-.remark-code {
+/* .remark-code {
   font-size: 20px;
   line-height: 1.25;
-}
+} */
 
 .font-mono {
   font-family: monospace;
@@ -110,10 +110,10 @@ h1, h2, h3, body{
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
 }
-.remark-code, .remark-inline-code {
+/* .remark-code, .remark-inline-code {
   font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
   color: var(--code-inline-color);
-}
+} */
 .remark-code {
   color: var(--code-text-color);
   background-color: var(--code-background);
