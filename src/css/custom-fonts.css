@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro&display=swap');
 
+/* headers & body */
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+body {
+  font-size: 1em;
+}
+
+
+
+
+/* scaling */
 .x25 {font-size: 25%;}
 .x50 {font-size: 50%;}
 .x75 {font-size: 75%;}
@@ -13,7 +30,7 @@
 .x275 {font-size: 275%;}
 .x300 {font-size: 300%;}
 
-/* from ninjutsu.css */
+/* scaling from ninjutsu.css */
 .font_small {font-size: 0.5em;}
 .font_medium {font-size: 1.25em;}
 .font_large {font-size: 1.5em;}

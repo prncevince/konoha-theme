@@ -23,7 +23,7 @@
     --link-color: #ecadec;
     --alert-color: #CF3C18;
     --text-alert: white;
-    --code-background: #f8f8f8;
+    --code-background: rgba(27,31,35,.05);
     --code-inline-color: #FFD740;
     --code-text-color: black;
     --code-highlight: rgba(136, 57, 138, 0.3);
@@ -92,7 +92,7 @@
     padding: 0;
 }
 
-.remark-visible .remark-slide-scaler {overflow-y: auto;}
+/* .remark-visible .remark-slide-scaler {overflow-y: auto;} */
 /* .remark-code {
   font-size: 20px;
   line-height: 1.25;
@@ -106,10 +106,10 @@
 .remark-code-line-highlighted { background-color: var(--code-highlight); }
 
 
-h1, h2, h3, body{
+/* h1, h2, h3, body{
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
-}
+} */
 /* .remark-code, .remark-inline-code {
   font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
   color: var(--code-inline-color);
@@ -126,7 +126,7 @@ pre {
   padding: 5px;
 }
 
-h1, h2, h3, h4 {
+/* h1, h2, h3, h4 {
     font-weight: 400;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -138,6 +138,6 @@ h4 { font-size: 1em; }
 
 body{
   font-size: 1em;
-}
+} */
 
 /* a { color: var(--link-color); text-decoration: none; } */

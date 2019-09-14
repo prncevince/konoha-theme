@@ -25,7 +25,7 @@
 
 /* no number */
 
-.title-slide .remark-slide-number {
+.title-slide .remark-slide-number, .nonumber .remark-slide-number {
     display: none;
 }
 
@@ -62,11 +62,40 @@ p.my-footer span {
     z-index: 1;
 }
 
-/* no margin */
+/* RESOURCES SLIDE */
+
+#slide-resources {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+/* no-classes */
 
 .nomargin {
   margin: 0!important;
 }
+.nofontsize p {
+  font-size: 0;
+}
+.nooverflow {
+  margin-bottom: 5px;
+}
+.nomargin-ul ul {
+  margin: 0;
+}
+.nomargin-h1 h1, .nomargin-h2 h2, .nomargin-h3 h3, .nomargin-h4 h4 {
+  margin: 0;
+}
+.nopadding-h1 h1, .nopadding-h2 h2, .nopadding-h3 h3, .nopadding-h4 h4 {
+  padding: 0;
+}
+
+/* remark styling */
+.remark-slide-scaler {
+  overflow: auto;
+}
+
 
 /* vertical content class alignment */
 
@@ -260,12 +289,12 @@ a[href*="http"] {
   background-color: #000; */
 }
 
-a:hover {
+a:hover, a > code:hover {
   color: #acacac;
   /* background-color: #acacac; */
 }
 
-a:active {
+a:active, a > code:active {
   color: #aaff00;
 }
 
