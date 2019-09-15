@@ -93,7 +93,7 @@ p.my-footer span {
 
 /* remark styling */
 .remark-slide-scaler {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 
