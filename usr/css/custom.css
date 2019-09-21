@@ -327,11 +327,8 @@ a:active, a > code:active {
 .series-map a:link, .series-map a:visited {
   color: white;
 }
-.series-map a:hover {
-  color: #acacac;
-}
 .series-map a:active {
-  color: rgb(249, 38, 114);
+  color: #aaff00;
 }
 
 .vcrms-1 {
@@ -355,8 +352,7 @@ a:active, a > code:active {
   background-position: center;
 }
 .rmd-ii-4 a:link, .rmd-ii-4 a:visited { color: black; }
-.rmd-ii-4 a:hover { color: #acacac; }
-.rmd-ii-4 a:active { color: rgb(249, 38, 114); }
+.rmd-ii-4 a:active { color: #aaff00; }
 .vc-git-5 {
   background-image: url('../../../assets/img/theme/5-vc-git.jpg');
   background-size: cover;
@@ -372,9 +368,8 @@ a:active, a > code:active {
   background-size: cover;
   background-position: center;
 }
-.browser-7 a:link, .browser-7 a:visited { color: black; }
-.browser-7 a:hover { color: #acacac; }
-.browser-7 a:active { color: rgb(249, 38, 114); }
+.browser-7 a:link, .browser-7 a:visited { color: #FFD700; }
+.browser-7 a:active { color: #aaff00; }
 .repro-envs-8 {
   background-image: url('../../../assets/img/theme/8-repro-envs.jpg');
   background-size: cover;
