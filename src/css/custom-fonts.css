@@ -13,9 +13,6 @@ body {
   font-size: 1em;
 }
 
-
-
-
 /* scaling */
 .x25 {font-size: 25%;}
 .x50 {font-size: 50%;}
@@ -45,4 +42,9 @@ body {
     font-family: 'Advent Pro';
     font-style: normal;
     font-weight: 400;
+}
+
+.remark-inline-code {
+  background-color: #f8f8f8;
+  color: #333;
 }
