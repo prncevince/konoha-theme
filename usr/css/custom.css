@@ -187,7 +187,7 @@ div p {
 }
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
-  /* background-color: transparent; /* does this do anything? */
+  background-color: transparent; /* does this do anything? */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 /* This container is needed to position the front and back side */
@@ -209,6 +209,10 @@ div p {
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden; /* Chrome, Safari */
+}
+/* Style the front side */
+.flip-box-front {
+  transform: rotateY(0deg);
 }
 /* Style the back side */
 .flip-box-back {

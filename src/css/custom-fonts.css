@@ -48,3 +48,7 @@ body {
   background-color: #f8f8f8;
   color: #333;
 }
+
+a > .remark-inline-code {
+  color: rgb(249, 38, 114);
+}
