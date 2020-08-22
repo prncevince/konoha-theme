@@ -298,11 +298,11 @@ a[href*="http"] {
   mask-size: 0.45em 0.45em;
   background-color: #000; */
 }
-a:hover, a > code:hover {
+a:hover, a > code:hover, a > span:hover {
   color: #acacac;
   /* background-color: #acacac; */
 }
-a:active, a > code:active {
+a:active, a > code:active, a > span:active {
   color: #aaff00;
 }
 .flip-box a {
