@@ -119,6 +119,9 @@ p.my-header span {
 .m1 .content {
   margin: 1em;
 }
+.column {
+  overflow-y: auto;
+}
 
 /* VERTICAL CONTENT ALIGNMENT */
 /* from bottom */

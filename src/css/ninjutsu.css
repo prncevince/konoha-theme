@@ -1397,10 +1397,10 @@
 .show-01111>.row:first-of-type>.content {visibility: hidden;}
 
 /* .content > h1, h2, h3, p { padding-left: 2%;padding-right: 2%; } */
-.content > h1, h2, h3 { 
+/* .content > h1, h2, h3 { 
   padding-left: 2%;
   padding-right: 2%; 
-}
+} */
 
 .horizontal-tb { writing-mode: lr-tb; }
 .vertical-rl, .sideways-rl {
