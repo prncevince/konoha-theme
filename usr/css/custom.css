@@ -205,6 +205,7 @@ This is used as such (creates a <span> container for <img>):
 Confusing b/c <p> is created when image is on newline after `[`
 However, there is behavior where <p><span><img></img></span></p> occurs, and this is for THAT occurence
 */
+/* image sizing is performed using the max-width property*/
 div p {
   display: inline;
 }
