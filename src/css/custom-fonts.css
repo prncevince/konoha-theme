@@ -26,6 +26,8 @@ body {
 .x250 {font-size: 250%;}
 .x275 {font-size: 275%;}
 .x300 {font-size: 300%;}
+.x400 {font-size: 400%;}
+.x500 {font-size: 500%;}
 
 /* scaling from ninjutsu.css */
 .font_small {font-size: 0.5em;}
@@ -41,6 +43,13 @@ body {
 /* advent-pro-regular - latin */
     font-family: 'Advent Pro';
     font-style: normal;
+    font-weight: 400;
+}
+
+.advent-pro-ital {
+/* advent-pro-regular - latin */
+    font-family: 'Advent Pro';
+    font-style: italic;
     font-weight: 400;
 }
 
