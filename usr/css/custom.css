@@ -83,13 +83,10 @@ p.my-header span {
 .nomargin {
   margin: 0 !important;
 }
-.nofontsize p {
-  font-size: 0;
-}
-.nooverflow {
-  margin-bottom: 5px;
-}
 .nomargin-ul ul {
+  margin: 0;
+}
+.nomargin-pre pre {
   margin: 0;
 }
 .nomargin-h1 h1, .nomargin-h2 h2, .nomargin-h3 h3, .nomargin-h4 h4 {
@@ -97,6 +94,12 @@ p.my-header span {
 }
 .nopadding-h1 h1, .nopadding-h2 h2, .nopadding-h3 h3, .nopadding-h4 h4 {
   padding: 0;
+}
+.nooverflow {
+  margin-bottom: 5px;
+}
+.nofontsize p {
+  font-size: 0;
 }
 
 /* REMARK STYLING */
