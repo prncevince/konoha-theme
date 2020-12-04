@@ -152,6 +152,52 @@ p.my-footer span {
 .vtop-35 { position: relative; top: 35%;}
 .vtop-40 { position: relative; top: 40%;}
 .vtop-45 { position: relative; top: 45%;}
+/* padding bottom */
+.padding-bottom-0 {position: relative; padding-bottom: 0%;}
+.padding-bottom-5 {position: relative; padding-bottom: 5%;}
+.padding-bottom-10 {position: relative; padding-bottom: 10%;}
+.padding-bottom-15 {position: relative; padding-bottom: 15%;}
+.padding-bottom-20 {position: relative; padding-bottom: 20%;}
+.padding-bottom-25 {position: relative; padding-bottom: 25%;}
+.padding-bottom-30 {position: relative; padding-bottom: 30%;}
+.padding-bottom-35 {position: relative; padding-bottom: 35%;}
+.padding-bottom-40 {position: relative; padding-bottom: 40%;}
+.padding-bottom-45 {position: relative; padding-bottom: 45%;}
+/* padding top */
+.padding-top-0 {position: relative; padding-top: 0%;}
+.padding-top-5 {position: relative; padding-top: 5%;}
+.padding-top-10 {position: relative; padding-top: 10%;}
+.padding-top-15 {position: relative; padding-top: 15%;}
+.padding-top-20 {position: relative; padding-top: 20%;}
+.padding-top-25 {position: relative; padding-top: 25%;}
+.padding-top-30 {position: relative; padding-top: 30%;}
+.padding-top-35 {position: relative; padding-top: 35%;}
+.padding-top-40 {position: relative; padding-top: 40%;}
+.padding-top-45 {position: relative; padding-top: 45%;}
+/* margin bottom */
+.margin-bottom-0 {position: relative; margin-bottom: 0%;}
+.margin-bottom-5 {position: relative; margin-bottom: 5%;}
+.margin-bottom-10 {position: relative; margin-bottom: 10%;}
+.margin-bottom-15 {position: relative; margin-bottom: 15%;}
+.margin-bottom-20 {position: relative; margin-bottom: 20%;}
+.margin-bottom-25 {position: relative; margin-bottom: 25%;}
+.margin-bottom-30 {position: relative; margin-bottom: 30%;}
+.margin-bottom-35 {position: relative; margin-bottom: 35%;}
+.margin-bottom-40 {position: relative; margin-bottom: 40%;}
+.margin-bottom-45 {position: relative; margin-bottom: 45%;}
+/* margin top */
+.margin-top-0 {position: relative; margin-top: 0%;}
+.margin-top-5 {position: relative; margin-top: 5%;}
+.margin-top-10 {position: relative; margin-top: 10%;}
+.margin-top-15 {position: relative; margin-top: 15%;}
+.margin-top-20 {position: relative; margin-top: 20%;}
+.margin-top-25 {position: relative; margin-top: 25%;}
+.margin-top-30 {position: relative; margin-top: 30%;}
+.margin-top-35 {position: relative; margin-top: 35%;}
+.margin-top-40 {position: relative; margin-top: 40%;}
+.margin-top-45 {position: relative; margin-top: 45%;}
+
+
 /* top margin */
 .remark-slide-content .vmiddle h2, .remark-slide-content .vmiddle h3, .remark-slide-content .vmiddle h4, .remark-slide-content .vmiddle h5, .remark-slide-content .vmiddle h6 {margin-top: 0;}
 .remark-slide-content .vbottom-0 h1, .remark-slide-content .vbottom-0 h2, .remark-slide-content .vbottom-0 h3, .remark-slide-content .vbottom-0 h4, .remark-slide-content .vbottom-0 h5, .remark-slide-content .vbottom-0 h6 {margin-top: 0;}
@@ -198,7 +244,50 @@ p.my-footer span {
 .hright-35 { position: relative; right: 35%;}
 .hright-40 { position: relative; right: 40%;}
 .hright-45 { position: relative; right: 45%;}
-
+/* padding left */
+.padding-left-0 {position: relative; padding-left: 0%;}
+.padding-left-5 {position: relative; padding-left: 5%;}
+.padding-left-10 {position: relative; padding-left: 10%;}
+.padding-left-15 {position: relative; padding-left: 15%;}
+.padding-left-20 {position: relative; padding-left: 20%;}
+.padding-left-25 {position: relative; padding-left: 25%;}
+.padding-left-30 {position: relative; padding-left: 30%;}
+.padding-left-35 {position: relative; padding-left: 35%;}
+.padding-left-40 {position: relative; padding-left: 40%;}
+.padding-left-45 {position: relative; padding-left: 45%;}
+/* padding right */
+.padding-right-0 {position: relative; padding-right: 0%;}
+.padding-right-5 {position: relative; padding-right: 5%;}
+.padding-right-10 {position: relative; padding-right: 10%;}
+.padding-right-15 {position: relative; padding-right: 15%;}
+.padding-right-20 {position: relative; padding-right: 20%;}
+.padding-right-25 {position: relative; padding-right: 25%;}
+.padding-right-30 {position: relative; padding-right: 30%;}
+.padding-right-35 {position: relative; padding-right: 35%;}
+.padding-right-40 {position: relative; padding-right: 40%;}
+.padding-right-45 {position: relative; padding-right: 45%;}
+/* margin left */
+.margin-left-0 {position: relative; margin-left: 0%;}
+.margin-left-5 {position: relative; margin-left: 5%;}
+.margin-left-10 {position: relative; margin-left: 10%;}
+.margin-left-15 {position: relative; margin-left: 15%;}
+.margin-left-20 {position: relative; margin-left: 20%;}
+.margin-left-25 {position: relative; margin-left: 25%;}
+.margin-left-30 {position: relative; margin-left: 30%;}
+.margin-left-35 {position: relative; margin-left: 35%;}
+.margin-left-40 {position: relative; margin-left: 40%;}
+.margin-left-45 {position: relative; margin-left: 45%;}
+/* margin right */
+.margin-right-0 {position: relative; margin-right: 0%;}
+.margin-right-5 {position: relative; margin-right: 5%;}
+.margin-right-10 {position: relative; margin-right: 10%;}
+.margin-right-15 {position: relative; margin-right: 15%;}
+.margin-right-20 {position: relative; margin-right: 20%;}
+.margin-right-25 {position: relative; margin-right: 25%;}
+.margin-right-30 {position: relative; margin-right: 30%;}
+.margin-right-35 {position: relative; margin-right: 35%;}
+.margin-right-40 {position: relative; margin-right: 40%;}
+.margin-right-45 {position: relative; margin-right: 45%;}
 
 /* IMAGES */
 /* by default, images are wrapped in <p> by remark.js when on newline after `[`
