@@ -222,6 +222,10 @@ p.my-footer span {
 .remark-slide-content .vtop-45 h1, .remark-slide-content .vtop-45 h2, .remark-slide-content .vtop-45 h3, .remark-slide-content .vtop-45 h4, .remark-slide-content .vtop-45 h5, .remark-slide-content .vtop-45 h6 {margin-top: 0;}
 
 /* HORIZONTAL CONTENT ALIGNMENT */
+/* lists stay left, even in right/centered blocks */
+ul, ol {
+  text-align: left;
+}
 /* from left */
 .hleft-0 { position: relative; left: 0%;}
 .hleft-5 { position: relative; left: 5%;}
