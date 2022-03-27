@@ -32,7 +32,7 @@ img.topic {
     right: 0;
 } */
 
-/* SERIES FOOTER */
+/* FOOTER */
 p.my-footer {
     display: block;
     background-color: #000;
@@ -436,68 +436,4 @@ a:active, a > code:active, a > span:active {
 .series-map a:active {
   color: #aaff00;
 }
-/* topics */
-.vcrms-1 {
-  /* background-image: url('../../../assets/img/theme/title.jpg'); */
-  background-image: url('../../../assets/img/theme/1-vcrms.jpg');
-  background-size: cover;
-}
-.rmd-i-2 {
-  background-image: url('../../../assets/img/theme/2-rmd-i.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.jamstack-3 {
-  background-image: url('../../../assets/img/theme/3-jamstack.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.rmd-ii-4 {
-  background-image: url('../../../assets/img/theme/4-rmd-ii.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.rmd-ii-4 a:link, .rmd-ii-4 a:visited { color: black; }
-.rmd-ii-4 a:active { color: #aaff00; }
-.vc-git-5 {
-  background-image: url('../../../assets/img/theme/5-vc-git.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.notebooks-6 {
-  background-image: url('../../../assets/img/theme/6-notebooks.png');
-  background-size: cover;
-  background-position: center;
-}
-.browser-7 {
-  background-image: url('../../../assets/img/theme/7-browser.png');
-  background-size: cover;
-  background-position: center;
-}
-.browser-7 a:link, .browser-7 a:visited { color: #FFD700; }
-.browser-7 a:active { color: #aaff00; }
-.repro-envs-8 {
-  background-image: url('../../../assets/img/theme/8-repro-envs.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.viz-9 {
-  background-image: url('../../../assets/img/theme/9-viz.jpg');
-  background-size: cover;
-  background-position: top;
-}
-.rpkgs-10 {
-  background-image: url('../../../assets/img/theme/10-rpkgs.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.paas-11 {
-  background-image: url('../../../assets/img/theme/11-paas.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.next-12 {
-  background-image: url('../../../assets/img/theme/12-next.jpg');
-  background-size: cover;
-  background-position: center;
-}
+
