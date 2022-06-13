@@ -1,13 +1,13 @@
 # Konoha Theme 
 
-The [Konoha](https://the-naruto-world.fandom.com/wiki/Konoha) [Xaringan](https://github.com/yihui/xaringan) theme.
+The [Konoha](https://the-naruto-world.fandom.com/wiki/Konoha) [xaringan](https://github.com/yihui/xaringan) theme.
 
 <img width="50%" src="https://static.wikia.nocookie.net/the-naruto-world/images/b/b1/Konohavillage.jpg">
 
 ## Background
-Xaringan Presentations ([see Yihui's demo](https://slides.yihui.name/xaringan/)), are HTML slides generated from R Markdown, created using the HTML slide library [remark.js](https://remarkjs.com).
+xaringan Presentations ([see Yihui's demo](https://slides.yihui.name/xaringan/)), are HTML slides generated from R Markdown, created using the HTML slide library [remark.js](https://remarkjs.com).
 
-Xaringan presentations [use themes](https://github.com/yihui/xaringan/wiki/Themes) to style the slide content of the web page. Available themes are listed using: 
+xaringan presentations [use themes](https://github.com/yihui/xaringan/wiki/Themes) to style the slide content of the web page. Available themes are listed using: 
 ```r 
 names(xaringan:::list_css())
 ```
